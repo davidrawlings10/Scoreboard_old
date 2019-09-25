@@ -5,7 +5,7 @@ import java.sql.ResultSet;
 public class Main {
 	public static void main(String[] args) {
 		try {
-			GameService.playGame(1, 2, Sport.RANDOM);
+			GameService.playGame(1, 2, Sport.RANDOM, 1);
 			
 			
 			
